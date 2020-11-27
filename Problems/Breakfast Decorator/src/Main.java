@@ -109,7 +109,7 @@ class Cheese extends Decorator {
 
     @Override
     int getKcal() {
-        return /* write your code here */ + 40;
+        return bread.getKcal() + 40;
     }
 }
 
